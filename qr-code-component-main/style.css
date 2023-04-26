@@ -22,7 +22,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   text-align: center;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 
@@ -30,19 +30,23 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  margin: 14px;
 }
 
 .first-text {
   font-family: 'Outfit', sans-serif;
+  color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 18px;
-  padding: 20px 10px 15px 10px;
-  box-sizing: border-box;
+  font-size: 20px;
+  margin: 5px 20px 0 20px;
+  /* box-sizing: border-box; */
 }
 
 .second-text {
   font-family: 'Outfit', sans-serif;
+  color: hsl(220, 15%, 55%);
   font-weight: 400;
-  font-size: 15px;
-  padding: 0 15px 30px 15px;
+  font-size: 14px;
+  padding: 0 20px 20px 20px;
+  /* box-sizing: border-box; */
 }
