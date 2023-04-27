@@ -1,0 +1,126 @@
+
+/* font-family: 'Hanken Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+html {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main card  */
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+  width: 90%;
+  max-width: 50vw;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+/* Card left side */
+.result {
+  background: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-size: 200%;
+  display: flex;
+  flex-direction: column;
+  grid-area: left;
+  text-align: center;
+  border-radius: 20px;
+}
+
+  .result-body {
+    margin: 25px;
+    /* border: 1px solid black; */
+    height: 85%;
+  }
+
+    .result-title {
+      font-size: 18px;
+      font-weight: 500;
+      color: hsl(241, 100%, 89%);
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+
+    /* Score circle */
+    .score-div {
+      display: flex;
+      justify-content: center;
+    }
+
+      .score-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        padding: 50px;
+      }
+
+        .score-main {
+          color: hsl(0, 0%, 100%);
+          font-weight: 800;
+          font-size: 50px;
+          margin: 0;
+          padding: 0;
+          margin-top: -8px;
+        }
+
+        .score-of {
+          color: hsla(241, 100%, 89%, 0.6);
+          font-size: 13px;
+          margin: 0;
+          padding: 0;
+          margin-top: -5px;
+        }
+
+    /* Result bottom */
+    .result-msg {
+      color: hsl(0, 0%, 100%);
+      font-weight: 500;
+      font-size: 25px;
+      margin-top: 25px;
+    }
+
+    .result-p {
+      color: hsla(241, 100%, 89%, 0.85);
+      font-size: 15px;
+      margin: 0;
+      padding: 0 15px 0 15px;
+    }
+
+/* Card right side */
+.summary {
+  grid-area: right;
+  align-items: center;
+}
+
+  .summary-body {
+    margin: 25px;
+    border: 1px solid black;
+    height: 85%;
+  }
+
+    .summary-title {
+      font-size: 18px;
+      font-weight: 500;
+      color: hsl(224, 30%, 27%);
+      padding: 0;
+      margin: 0;
+    }
+
+    .summary-items {
+      display: flex;
+      justify-content: space-between;
+    }
