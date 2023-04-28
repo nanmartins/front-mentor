@@ -153,26 +153,28 @@ main {
       }
 
       .reaction {
-        background-color: hsla(0, 100%, 67%, 0.07);
+        background-color: hsla(0, 100%, 67%, 0.05);
         color: hsl(0, 100%, 67%);
       }
 
-        .bi-lightning-charge {
-          padding-right: 10px;
+        .bi {
+          padding-right: 5px;
+          position: relative;
+          top: 2px;
         }
 
       .memory {
-        background-color: hsl(39, 100%, 56%, 0.07);
+        background-color: hsl(39, 100%, 56%, 0.05);
         color: hsl(39, 100%, 56%);
       }
 
       .verbal {
-        background-color: hsl(166, 100%, 37%, 0.07);
+        background-color: hsl(166, 100%, 37%, 0.05);
         color: hsl(166, 100%, 37%);
       }
 
       .visual {
-        background-color: hsl(234, 85%, 45%, 0.07);
+        background-color: hsl(234, 85%, 45%, 0.05);
         color: hsl(234, 85%, 45%);
       }
   /* Summary button   */
