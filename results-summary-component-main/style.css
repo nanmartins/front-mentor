@@ -157,6 +157,10 @@ main {
         color: hsl(0, 100%, 67%);
       }
 
+        .bi-lightning-charge {
+          padding-right: 10px;
+        }
+
       .memory {
         background-color: hsl(39, 100%, 56%, 0.07);
         color: hsl(39, 100%, 56%);
