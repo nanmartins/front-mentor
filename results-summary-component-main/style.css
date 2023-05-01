@@ -29,7 +29,7 @@ main {
   max-width: 550px;
   height: auto;
   border-radius: 20px;
-  box-shadow: 7px 20px 20px hsla(240, 100%, 94%, 0.55);
+  box-shadow: 7px 30px 25px hsla(240, 62%, 90%, 0.55);
 }
 
 /* Card left side */
@@ -116,7 +116,6 @@ main {
   .summary-body {
     display: grid;
     margin: 30px;
-    /* border: 1px solid black; */
     height: 100%;
     align-self: space-between;
   }
@@ -154,7 +153,7 @@ main {
       .bi {
         padding-right: 3px;
         position: relative;
-        top: 2px;
+        top: 3px;
       }
 
       .reaction {
@@ -194,6 +193,14 @@ main {
       border-radius: 30px;
       padding: 0;
     }
+
+    .summary-btn:hover {
+      background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+
+.attribution {
+  padding: 30px;
+}
 
 
 
