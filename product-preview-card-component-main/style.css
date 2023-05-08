@@ -1,0 +1,17 @@
+
+.desktop-img {
+  background-image: url("./images/image-product-desktop.jpg");
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .desktop-img {
+    background-image: url("./images/image-product-mobile.jpg");
+    height: 400px;
+  }
+}
