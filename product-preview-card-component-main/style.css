@@ -27,8 +27,8 @@ main {
 .card {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 15px;
+  width: 42vw;
+  height: 58vh;
 }
 
 
@@ -39,40 +39,73 @@ main {
 
 .desktop-img {
   background-image: url("./images/image-product-desktop.jpg");
-  height: 600px;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 15px 0 0 15px;
+  border-radius: 10px 0 0 10px;
 }
 
 
 /* Right side */
 .right {
-  padding: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 10px 10px 0;
 }
 
+  /* Product info */
   .p-category {
     font-family: 'Montserrat', sans-serif;
-    color: hsla(228, 12%, 48%, 0.65);
-    font-weight: 700;
+    color: hsla(228, 12%, 48%, 0.75);
+    font-size: 14px;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
   }
 
   .p-title {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
   .p-description {
     display: flex;
-    flex-wrap:nowrap;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    color: hsla(228, 12%, 48%, 0.75);
     font-weight: 500;
     line-height: 25px;
+  }
+
+  /* Price body */
+  .p-price-row {
+    display: flex;
+    align-items: center;
+  }
+
+    .p-main-price {
+      font-family: 'Fraunces', serif;
+      font-size: 32px;
+      color: hsl(158, 36%, 37%);
+    }
+
+    .p-old-price {
+      font-family: 'Montserrat', sans-serif;
+      color: hsla(228, 12%, 48%, 0.75);
+      font-weight: 500;
+      font-size: 13px;
+      text-decoration: line-through;
+      padding-left: 20px;
+    }
+
+  /* Button */
+  #btn {
+    background-color: hsl(158, 36%, 37%);
   }
 
 
