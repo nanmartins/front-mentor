@@ -71,6 +71,7 @@ main {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
+    margin-bottom: 10px;
   }
 
   .p-description {
@@ -86,6 +87,7 @@ main {
   .p-price-row {
     display: flex;
     align-items: center;
+    margin-top: 10px;
   }
 
     .p-main-price {
@@ -105,8 +107,26 @@ main {
 
   /* Button */
   #btn {
+    font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.8);
+    padding: 14px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
   }
+
+    .cart-icon {
+      text-align: center;
+      padding-right: 10px;
+      color: hsla(0, 0%, 100%, 0.8);
+    }
 
 
 /* Mobile */
