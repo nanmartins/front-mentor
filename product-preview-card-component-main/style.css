@@ -27,8 +27,8 @@ main {
 .card {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: 42vw;
-  height: 58vh;
+  width: 600px;
+  height: 450px;
 }
 
 
@@ -51,6 +51,7 @@ main {
 .right {
   padding: 30px;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   background-color: hsl(0, 0%, 100%);
   border-radius: 0 10px 10px 0;
