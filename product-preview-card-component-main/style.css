@@ -122,6 +122,10 @@ main {
     text-decoration: none;
   }
 
+    #btn:hover {
+      background-color: hsl(158, 38%, 18%);
+    }
+
     .cart-icon {
       text-align: center;
       padding-right: 10px;
@@ -142,6 +146,7 @@ main {
     /* padding: 20px; */
     box-sizing: border-box;
     align-items: baseline;
+    height: 100%;
     /* padding: 30px 15px; */
   }
 
