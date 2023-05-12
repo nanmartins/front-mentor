@@ -11,6 +11,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 main {
@@ -170,19 +171,17 @@ main {
   }
 
   .p-category {
-    /* font-size: 16px; */
     letter-spacing: 5px;
   }
 
   .p-title {
-    font-size: 35px;
+    font-size: 33px;
     margin-bottom: 0;
     margin-top: 14px;
-    /* line-height: 42px; */
   }
 
   .p-description {
     letter-spacing: normal;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
