@@ -33,9 +33,8 @@ main {
 
 
 /* Left side */
-.left {
-  /* grid-area: left; */
-}
+/* .left {
+} */
 
 .desktop-img {
   background-image: url("./images/image-product-desktop.jpg");
@@ -133,39 +132,52 @@ main {
 /* Mobile */
 @media only screen and (max-width: 600px) {
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   main {
     /* padding: 20px; */
+    box-sizing: border-box;
     align-items: baseline;
+    /* padding: 30px 15px; */
   }
 
   .card {
     display: flex;
     flex-direction: column;
-    /* border-radius: 0 10px 10px 0; */
-    margin: 30px 20px;
+    width: auto;
+    height: auto;
+    margin: 30px 15px;
   }
 
   .desktop-img {
     background-image: url("./images/image-product-mobile.jpg");
-    height: 40vh;
+    height: 250px;
     border-radius: 10px 10px 0 0;
   }
 
   .right {
     border-radius: 0 0 10px 10px;
+    padding: 25px;
   }
 
   .p-category {
     /* font-size: 16px; */
+    letter-spacing: 5px;
   }
 
   .p-title {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0;
+    margin-top: 14px;
     /* line-height: 42px; */
   }
 
   .p-description {
     letter-spacing: normal;
+    font-size: 15px;
   }
 }
