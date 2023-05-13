@@ -32,11 +32,7 @@ main {
   height: 450px;
 }
 
-
 /* Left side */
-/* .left {
-} */
-
 .desktop-img {
   background-image: url("./images/image-product-desktop.jpg");
   height: 100%;
@@ -110,7 +106,6 @@ main {
   #btn {
     font-family: 'Montserrat', sans-serif;
     background-color: hsl(158, 36%, 37%);
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +139,9 @@ main {
   }
 
   main {
-    /* padding: 20px; */
     box-sizing: border-box;
     align-items: baseline;
     height: 100%;
-    /* padding: 30px 15px; */
   }
 
   .card {
