@@ -3,11 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 /* font-family: 'Inter', sans-serif; */
 
+*, html, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 html {
   font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
 }
 body {
-  padding: 70px 130px;
+  padding: 70px 145px;
 }
 
 header {
@@ -17,9 +22,83 @@ header {
 }
 
 .nav-link {
-  font-size: 15px;
+  font-size: 16px;
   color: hsl(236, 13%, 42%);
   font-weight: 400;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 30px;
+}
+
+
+
+.grid {
+  display: grid;
+  margin: auto;
+  gap: 25px;
+  grid-template-columns: 65% 1fr;
+  grid-template-areas:
+  "banner banner new"
+  "article article new";
+}
+
+.banner {
+  background-image: url("/assets/images/image-web-3-desktop.jpg");
+  height: 260px;
+  grid-area: banner;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article {
+  grid-area: article;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 800;
+  /* line-height: 55px; */
+  margin: 0;
+  padding: 0;
+}
+
+.read-more {
+  /* grid-area: read; */
+}
+
+.new {
+  grid-area: new;
+  background-color: hsl(240, 100%, 5%);
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.new-main-title {
+  color: hsl(35, 77%, 62%);
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.new-title {
+  color: hsl(36, 100%, 99%);
+  font-size: 16px;
+}
+
+.new-subtitle {
+  color: hsla(36, 100%, 99%, 0.49);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
