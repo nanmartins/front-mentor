@@ -1,0 +1,25 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+body {
+  padding: 70px 130px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 20px;
+}
