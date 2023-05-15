@@ -11,10 +11,12 @@ html {
   font-family: 'Inter', sans-serif;
   box-sizing: border-box;
 }
+
 body {
-  padding: 70px 145px;
+  padding: 100px 150px;
 }
 
+/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -22,24 +24,30 @@ header {
 }
 
 .nav-link {
-  font-size: 16px;
-  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  color: hsla(236, 13%, 42%, 0.85);
   font-weight: 400;
   text-decoration: none;
   margin-left: 30px;
 }
 
+.nav-link:hover {
+  color: hsl(5, 85%, 63%);
+}
+/* /////////////////////////// */
 
 
+/* Grid container */
 .grid {
   display: grid;
   margin: auto;
-  gap: 25px;
+  gap: 30px;
   grid-template-columns: 65% 1fr;
   grid-template-areas:
   "banner banner new"
   "article article new";
 }
+
 
 .banner {
   background-image: url("/assets/images/image-web-3-desktop.jpg");
@@ -68,6 +76,18 @@ header {
   /* grid-area: read; */
 }
 
+#btn {
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+}
+
+#btn:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+
+/* New section (Right) */
 .new {
   grid-area: new;
   background-color: hsl(240, 100%, 5%);
@@ -83,11 +103,22 @@ header {
   font-weight: 700;
   margin: 0;
   padding: 0;
+  margin-bottom: 20px;
 }
 
-.new-title {
+/* .new-title {
   color: hsl(36, 100%, 99%);
   font-size: 16px;
+} */
+
+.new-title-link {
+  color: hsl(36, 100%, 99%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.new-title-link:hover {
+  color: hsl(35, 77%, 62%);
 }
 
 .new-subtitle {
@@ -95,7 +126,7 @@ header {
   font-size: 15px;
   font-weight: 400;
 }
-
+/* /////////////////////////////// */
 
 
 .cards {
